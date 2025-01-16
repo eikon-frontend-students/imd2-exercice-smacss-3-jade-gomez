@@ -1,7 +1,9 @@
+.l-top-line {
+  border-top: 40px solid #ffb500;
+}
 .l-background-animal {
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
-  border-bottom: 10px solid #ffb500;
 }
 .l-background.green {
   background-color: #9c3;
@@ -24,8 +26,20 @@
   width: 100%;
   margin-bottom: -40px;
 }
-/*.l-background-test {
-  background-color: blue;
-  width: 53%;
+.l-background-title {
   height: 40px;
-}*/
+  width: 110%;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l-background-title.green {
+  background-color: #9c3;
+}
+.l-background-title.blue {
+  background-color: #00a8b1;
+}
+hr.l-bottom-line {
+  border-top: 10px solid #ffb500;
+}
